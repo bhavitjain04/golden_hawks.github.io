@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url("C:/Users/hp/Desktop/Website_Anemia_Detection/Images/Banner.jpg");
+    background-image: url("Images/Banner.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -132,7 +132,7 @@ nav .fa-solid{
 .Algorithm {
     min-height: 100vh;
     width: 100%;
-    background-image: url("C:/Users/hp/Desktop/Website_Anemia_Detection/Images/Banner_2.jpg");
+    background-image: url("Images/Banner_2.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -160,7 +160,7 @@ p {
 .Anaemia_Description {
     min-height: 100vh;
     width: 100%;
-    background-image: url("C:/Users/hp/Desktop/Website_Anemia_Detection/Images/Banner_1.jpg");
+    background-image: url("Images/Banner_1.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -204,7 +204,7 @@ p {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: url("C:/Users/hp/Desktop/Website_Anemia_Detection/Images/Banner_2.jpg");
+    background-image: url("Images/Banner_2.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -282,7 +282,7 @@ p {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: url("C:/Users/hp/Desktop/Website_Anemia_Detection/Images/Banner_1.jpg");
+    background-image: url("Images/Banner_1.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
