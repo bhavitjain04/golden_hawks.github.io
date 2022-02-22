@@ -70,10 +70,10 @@
 		<div class="Comment-box">
 			<h3>"Leave a comment"</h3>
 
-			<form class="Comment-Form">
-				<input type="text" placeholder="Enter Name">
-				<input type="email" placeholder="Enter Email">
-				<textarea rows="5" placeholder="Your Comment"> </textarea>
+			<form action="https://formspree.io/f/xrgjqjpy" method="POST">
+				<input type="text" name="Name" placeholder="Enter your name" required>
+				<input type="email" name="Email" placeholder="Enter email address" required>
+				<textarea rows="8" name="Message" placeholder="Message" required></textarea>
 				<button type="submit" class="hero-btn"> POST COMMENT</button>
 			</form>
 		</div>
