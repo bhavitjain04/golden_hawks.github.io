@@ -376,3 +376,14 @@ p {
     margin-left:500px;
     margin-top: 20px;
 }
+.drop-zone--over{
+    border-style: solid;
+}
+
+.drop-zone__input{
+    display:none;
+}
+
+.row{
+    display: none;
+}
