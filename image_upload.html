@@ -8,6 +8,17 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/4fcda01787.js" crossorigin="anonymous"></script>
+	<script>
+		/*import fetch from "node-fetch";*/
+		async function getUsers() {
+  		let response = await fetch('https://anemia2testing.herokuapp.com');
+  		let data = await response.json();
+  		return data;
+			}
+			getUsers().then(data =>{
+  			console.log(data)
+			})
+  	</script>
 
 </head>
 <body>
