@@ -29,14 +29,34 @@
 		<h1>Upload the Patient's Image</h1>
 	</section>
 
-	<div class="drop-zone">
-		<span class="drop-zone__prompt">
-			Click to upload the image
-			<input type="file" name="myFile" class="drop-zone__input" />
-
-		</span>
+	<div class="row_1">
+	<p>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+			<ul>
+			{% for message in messages %}
+			  <li>{{ message }}</li>
+			{% endfor %}
+			</ul>
+		  {% endif %}
+		{% endwith %}
+	</p>
+	{% if filename %}
+		<div style = "padding:20px">
+			<img src="{{ url_for('display_image', filename=filename) }}">
+		</div>
+	{% endif %}
 	</div>
-	<script src="https://shashvat-bargale.github.io/golden_hawks.github.io/image_upload.js"></script>
+		<form method="post" action="/" enctype="multipart/form-data">
+	    <dl>
+			<p>
+				<input type="file" name="file" autocomplete="off" required>
+			</p>
+	    </dl>
+	    		<p>
+				<input type="submit" value="Submit">
+			</p>
+	</form>
 
 </body>
 </html>
